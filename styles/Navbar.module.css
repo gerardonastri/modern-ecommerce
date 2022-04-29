@@ -1,0 +1,18 @@
+.container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    padding-top: 10px;
+}
+.container h2{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 200;
+    color: gray;
+}
+.cartIcon{
+    margin-right: 10px;
+    cursor: pointer;
+}
