@@ -27,7 +27,6 @@ export default function Home() {
     }
     getproducts()
   }, []);
-  console.log(products);
   return (
     <div className={styles.container}>
       <Head>

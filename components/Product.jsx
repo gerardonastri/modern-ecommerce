@@ -5,6 +5,9 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const Product = ({product}) => {
+  console.log('====================================');
+  console.log(product);
+  console.log('====================================');
   return (
     <Link passHref href={`/product/${product?._id}`}>
       <div className={styles.container}>
